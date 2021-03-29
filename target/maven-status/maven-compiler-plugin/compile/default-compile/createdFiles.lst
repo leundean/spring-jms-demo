@@ -1,0 +1,7 @@
+com/concretepage/News.class
+com/concretepage/receiver/NewsReceiver1.class
+com/concretepage/Application.class
+com/concretepage/sender/TopicSender.class
+com/concretepage/config/JMSConfig.class
+com/concretepage/ctrl/ExampleCtrl.class
+com/concretepage/receiver/NewsReceiver2.class
