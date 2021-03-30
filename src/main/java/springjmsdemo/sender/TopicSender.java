@@ -23,12 +23,6 @@ public class TopicSender implements InitializingBean {
 
     public static int messageCount = 0;
 
-    @Value("${ACTIVEMQ_SERVICE_HOST}:61616")
-    private String brokerUrl;
-
-    @Value("${PROJECT_CREATED_EV}")
-    private String environmentFile;
-
     private List<Topic> topics = new ArrayList<>();
 
     @Autowired
@@ -39,7 +33,6 @@ public class TopicSender implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println(brokerUrl + " ¤ " + environmentFile);
         for (String topic : topicNames.split(",")){
             addTopic(topic);
         }

@@ -15,7 +15,7 @@ import org.springframework.jms.support.converter.MessageType;
 @EnableJms
 public class JMSConfig {
 
-	@Value("${ACTIVEMQ_SERVICE_HOST}:61616")
+	@Value("${ACTIVEMQ_SERVICE_HOST}")
 	private String brokerUrl;
 
 	@Bean
@@ -30,7 +30,7 @@ public class JMSConfig {
 	public CachingConnectionFactory connectionFactory() {
 		CachingConnectionFactory cachConnectionFactory = new CachingConnectionFactory();
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory();
-		connectionFactory.setBrokerURL(brokerUrl);
+		connectionFactory.setBrokerURL(brokerUrl + ":61616");
 		cachConnectionFactory.setTargetConnectionFactory(connectionFactory);
 		return cachConnectionFactory;
 	}
