@@ -1,4 +1,4 @@
 activemq:
 #  broker-url: tcp://brokerhost:61616
-  broker-url: tcp://localhost:61616
+  broker-url: tcp://localhosto:61616
   topic-names: topOne,topTwo,topThree

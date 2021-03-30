@@ -30,7 +30,7 @@ public class JMSConfig {
 	public CachingConnectionFactory connectionFactory() {
 		CachingConnectionFactory cachConnectionFactory = new CachingConnectionFactory();
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory();
-		connectionFactory.setBrokerURL(brokerUrl + ":61616");
+		connectionFactory.setBrokerURL("tcp://" + brokerUrl + ":61616");
 		cachConnectionFactory.setTargetConnectionFactory(connectionFactory);
 		return cachConnectionFactory;
 	}
