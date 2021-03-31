@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/.s2i/environment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/config/JMSConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/ctrl/ExampleCtrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/model/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/receiver/Receiver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/.s2i/environment" beforeDir="false" afterPath="$PROJECT_DIR$/src/.s2i/environment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcmod1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srcmod1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +26,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,5 +50,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
