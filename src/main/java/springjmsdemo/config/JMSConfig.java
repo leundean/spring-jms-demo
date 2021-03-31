@@ -15,7 +15,8 @@ import org.springframework.jms.support.converter.MessageType;
 @EnableJms
 public class JMSConfig {
 
-	@Value("${ACTIVEMQ_SERVICE_HOST}")
+	// Application name + _SERVICE_HOST
+	@Value("${AMQBINARY2_SERVICE_HOST}")
 	private String brokerUrl;
 
 	@Bean
