@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring-jms-demo-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/CommonStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/backend/amqservice/CommonStatusReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/backend/amqservice/CommonStatusReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/backend/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/backend/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/backend/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/backend/model/CommonStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/model/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/ExtraNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/model/ExtraNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/model/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/amqservice/CommonStatusReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/amqservice/CommonStatusReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/model/Addressable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/model/CommonStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/model/StorageEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/service/DistributionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/service/DistributionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/service/StorageInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/service/StorageInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/service/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
