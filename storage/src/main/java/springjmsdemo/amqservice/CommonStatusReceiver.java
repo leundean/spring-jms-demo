@@ -29,7 +29,7 @@ public class CommonStatusReceiver {
 	@JmsListener(destination = "common.status", containerFactory = "jmsContainerFactory")
 	public void receive(CommonStatus commonStatus) {
 		if (commonStatus.getSenderId() != envVariables.getSenderId()) {
-			log.info("Received status: " + commonStatus);
+			log.info("Received status: " + commonStatus.getSenderId() + ": " + commonStatus.getStatusValues().toString());
 			if (Integer.parseInt(commonStatus.getStatusValues().get("inventory")) < lowLimit){
 				distributionService.addresses.add(commonStatus.getSenderId());
 			}
