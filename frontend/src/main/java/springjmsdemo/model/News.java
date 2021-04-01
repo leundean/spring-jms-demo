@@ -1,4 +1,4 @@
-package springjmsdemo.model;
+package model;
 
 public class News {
 	private int id;

@@ -5,19 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/ExtraNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-demo-0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/model/CommonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/model/CommonStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/config/JMSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/config/JMSConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/amqservice/CommonStatusReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/amqservice/CommonStatusReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/amqservice/DistributionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/amqservice/DistributionReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/amqservice/StorageEventReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/amqservice/StorageEventReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/amqservice/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/amqservice/TopicSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/config/EnvVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/config/EnvVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/config/JMSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/config/JMSConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/controller/ManualController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/controller/ManualController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/Addressable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/model/Addressable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/model/CommonStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/StorageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/model/StorageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/service/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/receiver/Receiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/ExtraNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/model/ExtraNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/model/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/src/main/java/storage/model/CommonStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/Addressable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/CommonStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/StorageEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/service/StorageInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/src/main/java/storage/service/StorageInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../target/spring-jms-demo-0.1.0.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +60,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1qW4y3C3qiaJiO7BMZFizCARQ1Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -49,6 +77,9 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="backend.controller" />
@@ -76,5 +107,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

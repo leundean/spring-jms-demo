@@ -1,7 +1,7 @@
 /home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/Application.java
+/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/model/News.java
 /home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/ctrl/ExampleCtrl.java
 /home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/config/JMSConfig.java
-/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/receiver/NewsReceiver2.java
+/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/model/ExtraNews.java
 /home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/sender/TopicSender.java
-/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/News.java
-/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/receiver/NewsReceiver1.java
+/home/mikael/IdeaProjects/spring-jms-demo/src/main/java/springjmsdemo/receiver/Receiver1.java

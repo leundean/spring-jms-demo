@@ -2,7 +2,7 @@ package springjmsdemo.receiver;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
-import springjmsdemo.model.News;
+import model.News;
 
 
 @Component
@@ -11,7 +11,7 @@ public class Receiver1 {
 	public void topOne(News news) {
 		System.out.println("Receiver1 topOne: " + news.getExtra().get(0).getTitle());
 	}
-
+/*
 	@JmsListener(destination = "topTwo", containerFactory = "jmsContainerFactory")
 	public void topTwo(News news) {
 		System.out.println("Receiver1 topTwo: " + news.toString());
@@ -21,4 +21,5 @@ public class Receiver1 {
 	public void topThree(News news) {
 		System.out.println("Receiver1 topThree: " + news.getTitle());
 	}
+*/
 }

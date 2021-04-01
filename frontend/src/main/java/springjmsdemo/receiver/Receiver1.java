@@ -2,7 +2,7 @@ package springjmsdemo.receiver;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
-import springjmsdemo.model.News;
+import model.News;
 
 
 @Component

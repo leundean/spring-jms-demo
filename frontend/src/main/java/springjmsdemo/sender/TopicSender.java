@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.JmsException;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
-import springjmsdemo.model.News;
+import model.News;
 
 import javax.jms.JMSException;
 import javax.jms.Topic;
