@@ -1,16 +1,12 @@
 package springjmsdemo.model;
 
-import java.util.List;
-
-public class News {
+public class ExtraNews {
 	private int id;
 	private String title;
-	private List<ExtraNews> extra;
-	public News() {}
-	public News(int id, String title, List<ExtraNews> extra) {
+	public ExtraNews() {}
+	public ExtraNews(int id, String title) {
 		this.id = id;
 		this.title = title;
-		this.extra = extra;
 	}	
 	public int getId() {
 		return id;
@@ -23,14 +19,6 @@ public class News {
 	}
 	public void setTitle(String title) {
 		this.title = title;
-	}
-
-	public List<ExtraNews> getExtra() {
-		return extra;
-	}
-
-	public void setExtra(List<ExtraNews> extra) {
-		this.extra = extra;
 	}
 	/*
 	@Override

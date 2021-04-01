@@ -1,4 +1,5 @@
 activemq:
-#  broker-url: tcp://brokerhost:61616
-  broker-url: tcp://localhosto:61616
+#  broker-url:  brokerhost
+  broker-url: localhost
+  broker-url-port: 61616
   topic-names: topOne,topTwo,topThree

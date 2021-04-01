@@ -16,8 +16,12 @@ import org.springframework.jms.support.converter.MessageType;
 public class JMSConfig {
 
 	// Application name + _SERVICE_HOST
-	@Value("${AMQBINARY2_SERVICE_HOST}")
+	//@Value("${AMQBINARY2_SERVICE_HOST}")
+	@Value("${activemq.broker-url}")
 	private String brokerUrl;
+
+	@Value("${activemq.broker-url-port}")
+	private String brokerUrlPort;
 
 	@Bean
 	public DefaultJmsListenerContainerFactory jmsContainerFactory() {
@@ -31,7 +35,7 @@ public class JMSConfig {
 	public CachingConnectionFactory connectionFactory() {
 		CachingConnectionFactory cachConnectionFactory = new CachingConnectionFactory();
 		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory();
-		connectionFactory.setBrokerURL("tcp://" + brokerUrl + ":61616");
+		connectionFactory.setBrokerURL("tcp://" + brokerUrl + ":" + brokerUrlPort);
 		cachConnectionFactory.setTargetConnectionFactory(connectionFactory);
 		return cachConnectionFactory;
 	}

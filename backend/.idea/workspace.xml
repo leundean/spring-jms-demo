@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/ExtraNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backend/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/backend/model/CommonStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/config/JMSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/config/JMSConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/receiver/Receiver2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/springjmsdemo/sender/TopicSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/src/main/java/storage/model/CommonStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/src/main/java/storage/model/CommonStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
