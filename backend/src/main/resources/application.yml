@@ -1,0 +1,3 @@
+activemq:
+  openwire-port: 61616
+  topic-names: common.status
