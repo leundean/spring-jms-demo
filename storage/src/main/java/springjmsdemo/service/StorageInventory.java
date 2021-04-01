@@ -26,6 +26,12 @@ public class StorageInventory {
         return null;
     }
 
+    public Product removeProductById(int productId) {
+        Product removedProduct = getProductById(productId);
+        products.removeIf(p -> removedProduct.getProductId() == p.getProductId());
+        return removedProduct;
+    }
+
     public int getSize(){
         return products.size();
     }

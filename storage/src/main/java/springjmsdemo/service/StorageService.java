@@ -42,7 +42,7 @@ public class StorageService {
         for (int i=0; i < number; i++) {
             Random random = new Random();
             int randomInt = random.nextInt(storageInventory.getSize());
-            randomList.add(storageInventory.getAll().get(randomInt));
+            randomList.add(storageInventory.removeProductById(storageInventory.getAll().get(randomInt).getProductId()));
         }
         return randomList;
     }
