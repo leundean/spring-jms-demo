@@ -25,9 +25,9 @@ public class ShopService {
     @Autowired
     TopicSender topicSender;
 
-    private static BigDecimal balance;
+    private static BigDecimal balance = new BigDecimal(0);
 
-    private static int sales;
+    private static int sales = 0;
 
     private static Set<String> visitors = new HashSet<>();
 
