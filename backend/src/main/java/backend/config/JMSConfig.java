@@ -21,7 +21,7 @@ public class JMSConfig {
 	private String brokerUrl;
 
 	// application.yml
-	@Value("${openwire-port}")
+	@Value("${activemq.openwire-port}")
 	private String port;
 
 	@Bean
