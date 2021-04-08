@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,7 +19,13 @@ public class IndexController {
     @Value("${HOSTNAME:deflocalhostname}")
     private String hostname;
 
-    @GetMapping(value = {"/", "/products"}, produces = MediaType.TEXT_HTML_VALUE)
+    @RequestMapping({ "/etc","/welcome","/products" })
+    public String redirect() {
+        return "forward:/";
+    }
+
+//    @GetMapping(value = {"/", "/products"}, produces = MediaType.TEXT_HTML_VALUE)
+    @GetMapping(value = {"/"}, produces = MediaType.TEXT_HTML_VALUE)
     @ResponseBody
     public String index() {
         System.out.println(hostname + " : " + backendhostname);
@@ -28,9 +35,7 @@ public class IndexController {
           "<meta charset='utf-8'>" +
           "<title>Shop</title>" +
           "<script type='text/javascript'>" +
-                "var bravo=" + backendhostname + ";" +
-                "function getAlpha(){ return alpha; } function getBeta(){ return " + backendhostname + "; }" +
-                "var BACKEND_HOST=" + backendhostname + ";" +
+                "var apiURL = '" + backendhostname + "';" +
             "</script>" +
           "<base href='http://" + hostname + ":8080'>" +
           "<meta name='viewport' content='width=device-width, initial-scale=1'>" +
