@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-jms-demo-frontend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/color-wheel-300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/environment_vars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/polyfills.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/runtime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vendor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../storage/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/spring-jms-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/spring-jms-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/springjmsdemo/controller/ManualController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/springjmsdemo/controller/ManualController.java" afterDir="false" />
@@ -40,7 +56,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/springjmsdemo/receiver/Receiver1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springjmsdemo/receiver/Receiver2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springjmsdemo/sender/TopicSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
