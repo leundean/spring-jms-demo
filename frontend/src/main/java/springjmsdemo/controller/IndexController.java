@@ -16,7 +16,7 @@ public class IndexController {
     @Value("${BACKEND_HOSTNAME:defbackendhostname}")
     private String backendhostname;
 
-    @Value("${HOSTNAME:deflocalhostname}")
+    @Value("${EXT_HOSTNAME:deflocalhostname}")
     private String hostname;
 
     @RequestMapping({ "/etc","/welcome","/products" })
