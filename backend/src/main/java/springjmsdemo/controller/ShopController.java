@@ -23,7 +23,7 @@ public class ShopController {
 
     @GetMapping(value = "/listall")
     @ResponseBody
-    public List<Product> listAll(@PathVariable("productType") String productType, HttpServletRequest httpServletRequest){
+    public List<Product> listAll(HttpServletRequest httpServletRequest){
         log.info("/listall");
         shopService.registerVisit(httpServletRequest.getRemoteUser());
         return shopService.listall();
