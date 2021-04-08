@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/assets/color-wheel-300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/assets/environment_vars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/polyfills.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/runtime.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static-OLD/vendor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/java/springjmsdemo/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/resources/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main/resources/static/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main/resources/static/main.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

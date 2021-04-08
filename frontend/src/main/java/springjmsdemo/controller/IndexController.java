@@ -37,7 +37,7 @@ public class IndexController {
           "<script type='text/javascript'>" +
                 "var apiURL = '" + backendhostname + "';" +
             "</script>" +
-          "<base href='http://" + hostname + ":8080'>" +
+          "<base href='" + hostname + "'>" +
           "<meta name='viewport' content='width=device-width, initial-scale=1'>" +
           "<link rel='icon' type='image/x-icon' href='favicon.ico'>" +
           "<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap' rel='stylesheet'>" +
