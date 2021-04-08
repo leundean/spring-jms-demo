@@ -41,6 +41,13 @@ public class ShopService {
         return products;
     }
 
+
+    public List<Product> listall(){
+        List<Product> products = inventory.getAll();
+        Collections.sort(products);
+        return products;
+    }
+
     public Product sell(int productId){
         Product product = inventory.removeProductById(productId);
         balance = balance.add(product.getPrice());

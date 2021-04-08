@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="srcmod1" />
+        <module name="spring-jms-demo-frontend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-jms-demo-frontend" target="11" />
       <module name="srcmod1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-jms-demo-frontend" options="-parameters" />
       <module name="srcmod1" options="-parameters" />
     </option>
   </component>

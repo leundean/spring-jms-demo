@@ -39,6 +39,10 @@ public class Inventory {
         return products.stream().filter(p -> p.getProductType().equals(productType)).collect(Collectors.toList());
     }
 
+    public List<Product> getAll() {
+        return products;
+    }
+
     public void addProducts(List<Product> newProducts) {
         products.addAll(newProducts);
     }

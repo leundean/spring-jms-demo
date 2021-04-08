@@ -15,10 +15,19 @@ import java.util.Map;
 
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 public class ShopController {
 
     @Autowired
     ShopService shopService;
+
+    @GetMapping(value = "/listall")
+    @ResponseBody
+    public List<Product> listProducts(@PathVariable("productType") String productType, HttpServletRequest httpServletRequest){
+        log.info("/listall");
+        shopService.registerVisit(httpServletRequest.getRemoteUser());
+        return shopService.listall();
+    }
 
     @GetMapping(value = "/list/{productType}")
     @ResponseBody
