@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c44a26f-dfbc-4e0a-ab46-b0d6a5b5b284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/spring-jms-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/spring-jms-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springjmsdemo/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjmsdemo/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/spring-jms-demo-storage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../storage/spring-jms-demo-storage.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
